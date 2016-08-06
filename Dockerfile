@@ -13,4 +13,4 @@ ENV UPSTREAM=http://rubygems.org \
 
 VOLUME /data/rubygems /var/log
 
-CMD ["/usr/bin/rubygems_sync_helper.sh"]
+CMD /usr/bin/rubygems_sync_helper.sh
