@@ -1,0 +1,7 @@
+---
+- from: {{UPSTREAM}}
+  to: /data/rubygems
+  parallelism: {{PARALLELISM}}
+  retries: {{RETRIES}}
+  delete: {{DELETE}}
+  skiperror: {{SKIP_ERROR}}

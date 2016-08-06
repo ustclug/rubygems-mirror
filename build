@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+apk add --no-cache ruby
+gem install --no-document rubygems-mirror
+mkdir -p /data/rubygems
