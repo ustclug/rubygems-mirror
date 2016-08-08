@@ -1,6 +1,6 @@
 FROM smartentry/alpine:3.4-beta
 
-ADD . /etc/docker-assets
+ADD . $ASSETS_DIR
 
 RUN smartentry.sh build
 
