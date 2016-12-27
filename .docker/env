@@ -1,0 +1,6 @@
+UPSTREAM    = http://rubygems.org
+PARALLELISM = 10
+RETRIES     = 3
+DELETE      = false
+SKIP_ERROR  = true
+LOG_NUM     = 50
