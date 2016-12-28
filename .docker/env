@@ -4,3 +4,4 @@ RETRIES     = 3
 DELETE      = false
 SKIP_ERROR  = true
 LOG_NUM     = 50
+ENABLE_UNSET_ENV_VARIBLES = false

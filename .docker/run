@@ -11,5 +11,5 @@ LOGFILE="/var/log/rubygems_sync.log"
     echo "===== SYNC FINISHED AT $(date -R) ====="
 ) 2>&1 | tee $LOGFILE
 
-savelog -c {{LOG_NUM}} $LOGFILE > /dev/null
+savelog -c $LOG_NUM $LOGFILE > /dev/null
 
